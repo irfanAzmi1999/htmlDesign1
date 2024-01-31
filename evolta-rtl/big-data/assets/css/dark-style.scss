@@ -1,0 +1,1163 @@
+$main-color: #074ece;
+$optional-color: #4ac728;
+$white-color: #ffffff;
+$black-color: #333333;
+$paragraph-color: #e1e1e1;
+
+// Theme Dark CSS
+.theme-dark {
+    
+    body {
+        background-color: #000000;
+        color: $white-color;
+    }
+    a {
+        color: $white-color;
+    
+        &:hover, &:focus {
+            color: $main-color;
+        }
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $white-color;
+    }
+    p {
+        color: $paragraph-color;
+    }
+    .btn-primary {
+        color: $white-color;
+    }
+    .btn-light {
+        color: $main-color;
+    
+        &:hover, &:focus {
+            color: $white-color !important;
+        }
+    }
+    .bg-f1f3f6 {
+        background-color: #1b1a1a;
+    }
+    .form-control {
+        border-color: #494949;
+        color: $white-color;
+        
+        &::placeholder {
+            color: $paragraph-color;
+        }
+        &:focus {
+            border-color: $main-color;
+            background-color: #000000;
+        }
+    }
+
+    .banner-white-shape {
+        img {
+            filter: brightness(0);
+        }
+    }
+
+    .single-services-box {
+        background-color: $black-color;
+    
+        &:hover {
+            background-color: $main-color;
+        }
+    }
+
+    .overview-box {
+        .content {
+            .features-list {
+                li {
+                    span {
+                        background-color: $black-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .single-how-it-work-box {
+        background-color: $black-color;
+    
+        .icon {
+            &::before {
+                background: #1b1a1a;
+            }
+        }
+        .number-text {
+            color: $white-color;
+        }
+        &:hover {
+            background-color: $black-color;
+        }
+    }
+
+    .single-choose-us-box {
+        background-color: $black-color;
+    }
+
+    .single-resources-box {
+        background-color: $black-color;
+    
+        &:hover {
+            background-color: $black-color;
+        }
+    }
+
+    .our-clients-list {
+        background-color: $black-color;
+    
+        .single-clients {
+            background-color: $black-color;
+    
+            &:nth-child(1) {
+                border-color: #494949;
+            }
+            &:nth-child(2) {
+                border-color: #494949;
+            }
+            &:nth-child(3) {
+                border-color: #494949;
+            }
+            &:nth-child(4) {
+                border-color: #494949;
+            }
+            &:nth-child(5) {
+                border-color: #494949;
+            }
+            &:nth-child(6) {
+                border-color: #494949;
+            }
+            &:nth-child(7) {
+                border-color: #494949;
+            }
+            &:hover {
+                border-color: $black-color;
+            }
+        }
+    }
+    .question-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+                color: $white-color;
+    
+                &::placeholder {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .single-feedback-item {
+        background-color: $black-color;
+        border-color: #494949;
+        
+        .feedback-desc {
+            border-bottom-color: #494949;
+            
+            p {
+                &::before {
+                    color: $paragraph-color;
+                }
+                &::after {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+    .owl-item {
+        &.active {
+            &.center {
+                .single-feedback-item {
+                    border-color: #494949;
+                }
+            }
+        }
+    }
+
+    .single-blog-post {
+        background-color: $black-color;
+    
+        .entry-post-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $paragraph-color;
+                        
+                        a {
+                            color: $paragraph-color;
+    
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .single-team-box {
+        background-color: $black-color;
+    
+        .image {
+            .social {
+                background: $black-color;
+            }
+        }
+    }
+
+    .pagination-area {
+        .page-numbers {
+            background-color: $black-color;
+            color: $white-color;
+            box-shadow: unset;
+            
+            &.current, &:hover, &:focus {
+                background: $main-color;
+            }
+        }
+    }
+
+    .services-details-overview {
+        .services-details-desc {
+            .features-list {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+            .services-details-accordion {
+                .accordion {
+                    .accordion-item {
+                        background: $black-color;
+                    }
+                    .accordion-title {
+                        color: $white-color;
+                        
+                        &.active {
+                            border-bottom-color: #494949;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .woocommerce-topbar {
+        .woocommerce-topbar-ordering {
+            .nice-select {
+                background-color: $black-color;
+                color: $paragraph-color;
+
+                .list {
+                    background-color: $black-color;
+                }
+            }
+        }
+    }
+    .single-product-box {
+        background-color: $black-color;
+    
+        .product-content {
+            .price {
+                color: $white-color;
+            }
+        }
+    }
+
+    .product-details-desc {
+        .price {
+            color: $white-color;
+        }
+        .product-review {
+            .rating-count {
+                color: $white-color;
+                border-bottom-color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                    border-color: $main-color;
+                }
+            }
+        }
+        .product-add-to-cart {
+            .input-counter {
+                input {
+                    color: $white-color;
+                    background-color: $black-color;
+                    
+                    &::placeholder {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .buy-checkbox-btn {
+            .cbx {
+                span {
+                    &:first-child {
+                        border-color: #494949;
+    
+                        svg {
+                            stroke: $black-color;
+                        }
+                        &:before {
+                            background: $white-color;
+                        }
+                    }
+                    &:last-child {
+                        color: $paragraph-color;
+                    }
+                }
+                &:hover {
+                    span {
+                        &:first-child {
+                            border-color: $white-color;
+                        }
+                    }
+                }
+            }
+            .inp-cbx:checked + .cbx span:first-child {
+                background: $white-color;
+                border-color: $white-color;
+            }
+            .btn-light {
+                background-color: $black-color;
+                color: $white-color;
+            }
+        }
+        .custom-payment-options {
+            span {
+                color: $paragraph-color;
+            }
+        }
+    }
+    .products-details-tab {
+        .tabs {
+            li {
+                a {
+                    color: $white-color;
+                    border-color: #494949;
+                    
+                    .dot {
+                        border-color: $white-color;
+            
+                        &::before {
+                            background: $white-color;
+                        }
+                    }
+                    &:hover, &:focus {
+                        border-color: $main-color;
+                    }
+                }
+                &.current {
+                    a {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .tab_content {
+            border-color: #494949;
+    
+            .tabs_item {
+                .products-details-tab-content {
+                    .additional-information {
+                        li {
+                            border-color: #494949;
+                            color: $paragraph-color;
+    
+                            &:last-child {
+                                border-bottom-color: #494949;
+                            }
+                            span {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                    .product-review-form {
+                        .review-comments {
+                            .review-item {
+                                border-top-color: #494949;
+    
+                                .review-report-link {
+                                    color: $paragraph-color;
+    
+                                    &:hover {
+                                        color: $main-color;
+                                    }
+                                }
+                            }
+                        }
+                        .review-form {
+                            form {
+                                .form-group {
+                                    label {
+                                        color: $paragraph-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cart-table {
+        table {
+            thead {
+                tr {
+                    th {
+                        color: $white-color;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        color: $paragraph-color;
+                        
+                        &.product-name {
+                            a {
+                                color: $paragraph-color;
+    
+                                &:hover {
+                                    color: $optional-color;
+                                }
+                            }
+                        }
+                        &.product-quantity {
+                            .input-counter {
+                                input {
+                                    color: $white-color;
+                                    background-color: $black-color;
+
+                                    &::placeholder {
+                                        color: $white-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .table-bordered>:not(caption)>* {
+            border-color: #312d2d;
+        }
+    }
+    .cart-totals {
+        background: $black-color;
+        
+        ul {
+            li {
+                border-color: #494949;
+                color: $white-color;
+                
+                span {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .user-actions {
+        background: $black-color;
+    
+        span {
+            color: $main-color;
+    
+            a {
+                color: $white-color;
+    
+                &:hover, &:focus {
+                    color: $main-color;
+                }
+            }
+        }
+        &::before {
+            background: #333333;
+        }
+    }
+    .billing-details {
+        .form-group {
+            label {
+                color: $paragraph-color;
+            }
+            .nice-select {
+                color: $paragraph-color;
+                
+                .list {
+                    background-color: $black-color;
+                }
+            }
+        }
+        .form-check {
+            .form-check-label {
+                color: $paragraph-color;
+            }
+        }
+    }
+    .order-details {
+        .order-table {
+            table {
+                thead {
+                    tr {
+                        border-color: #494949;
+
+                        th {
+                            color: $white-color;
+                            border-color: #494949;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        border-color: #494949;
+
+                        td {
+                            color: $paragraph-color;
+                            border-color: #494949;
+                            
+                            &.product-name {
+                                a {
+                                    color: $paragraph-color;
+
+                                    &:hover {
+                                        color: $main-color;
+                                    }
+                                }
+                            }
+                            &.order-subtotal, &.order-shipping , &.total-price {
+                                span {
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .payment-box {
+            background-color: $black-color;
+            
+            .payment-method {
+                p {
+                    [type="radio"] {
+                        &:checked, &:not(:checked) {
+                            + label {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .widget-area {
+        .widget {
+            .widget-title {
+                border-bottom-color: #494949;
+            }
+        }
+        .widget_search {
+            background-color: $black-color;
+    
+            form {
+                .search-field {
+                    border-color: #494949;
+                    color: $white-color;
+    
+                    &::placeholder {
+                        color: $paragraph-color;
+                    }
+                    &:focus {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .widget_evolta_posts_thumb {
+            .item {
+                .info {
+                    time {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_entries {
+            ul {
+                li {
+                    color: $paragraph-color;
+
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                    .post-date {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_comments {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+                        
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_archive {
+            ul {
+                li {    
+                    color: $paragraph-color;
+
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_meta {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .tagcloud {
+            a {
+                color: $paragraph-color;
+                border-color: #494949;
+                
+                &:hover, &:focus {
+                    color: $white-color;
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .blog-details {
+        .article-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $white-color;
+        
+                        a {
+                            color: $paragraph-color;
+        
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .article-features-list {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+        }
+        .article-footer {
+            border: {
+                top-color: #494949;
+                bottom-color: #494949;
+            }
+            .article-tags {
+                span {
+                    color: $white-color;
+                }
+                a {
+                    color: $paragraph-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+            .article-share {
+                .social {
+                    li {
+                        a {
+                            color: $white-color;
+                            background-color: $black-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        background-color: $black-color;
+        
+        p {
+            color: $white-color;
+        }
+        &::before {
+            opacity: .15;
+        }
+    }
+    .comments-area {
+        .comment-body {
+            border-bottom-color: #494949;
+            color: $white-color;
+    
+            .reply {
+                a {
+                    border-color: #494949;
+                    color: $paragraph-color;
+
+                    &:hover {
+                        color: $white-color;
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .comment-metadata {
+            color: $paragraph-color;
+
+            a {
+                color: $paragraph-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        .comment-respond {
+            label {
+                color: $white-color;
+            }
+            input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+                color: $white-color;
+                background-color: #2d2b2b;
+                border-color: #494949;
+    
+                &::placeholder {
+                    color: $paragraph-color;
+                }
+                &:focus {
+                    border-color: $main-color;
+                }
+            }
+            .comment-form-cookies-consent {
+                label {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .coming-soon-area {
+        .coming-soon-content {
+            .logo {
+                &.white-logo {
+                    display: inline-block;
+                }
+                &.black-logo {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                background: $black-color;
+            }
+            .accordion-title {
+                color: $white-color;
+                
+                &.active {
+                    border-bottom-color: #494949;
+                }
+            }
+        }
+    }
+    .faq-contact-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+            }
+        }
+    }
+
+    .resources-details-overview {
+        .resources-details-desc {
+            .resources-details-accordion {
+                .accordion {
+                    .accordion-item {
+                        background: $black-color;
+                    }
+                    .accordion-title {
+                        color: $white-color;
+                        
+                        &.active {
+                            border-bottom-color: #494949;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+            }
+        }
+    }
+    .contact-info {
+        .contact-info-content {
+            h2 {
+                span {
+                    color: $paragraph-color;
+                }
+            }
+            .social {
+                li {
+                    a {
+                        border-color: #494949;
+                        color: $white-color;
+                        
+                        &:hover {
+                            border-color: $main-color;
+                            background-color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Start "Data Analysis Demo CSS, "User Analysis Demo CSS & Data Science Demo CSS" */
+
+    .data-analysis-white-shape {
+        img {
+            filter: brightness(0);
+        }
+    }
+
+    .solutions-wrap-card {
+        background: #0e0e0e;
+
+        h3 {
+            a {
+                color: $white-color;
+            }
+        }
+    }
+
+    .about-wrap-content {
+        .wrap-list {
+            li {
+                background-color: #0e0e0e;
+                color: $white-color;
+
+                &:hover {
+                    background-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .services-wrap-area {
+        background-color: #0e0e0e;
+    }
+
+    .services-wrap-card {
+        background-color: $black-color;
+
+        .content {
+            h3 {
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .value-benefits-list-tabs {
+        .nav {
+            background-color: #0e0e0e;
+
+            .nav-item {
+                .nav-link {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .value-benefits-content {
+        .list {
+            li {
+                background-color: #0e0e0e;
+                color: $white-color;
+
+                &:hover {
+                    background-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .overview-wrap-content {
+        p {
+            color: #ffffff !important;
+        }
+    }
+
+    .awesome-solutions-bg-shape {
+        img {
+            filter: brightness(0);
+        }
+    }
+
+    .clients-review-area {
+        background: #0e0e0e;
+    }
+
+    .clients-review-item {
+        background-color: $black-color;
+
+        .client-info {
+            h3 {
+                color: $white-color;
+            }
+        }
+    }
+
+    .blog-wrap-card {
+        .blog-content {
+            .entry-meta {
+                li {
+                    color: $white-color;
+                    &::before {
+                        background: $white-color;
+                    }
+                    a {
+                        color: $white-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+            h3 {
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+            .blog-btn {
+                color: $white-color;
+            }
+        }
+    }
+
+    .partner-wrap-area {
+        background-color: #0e0e0e;
+    }
+
+    .overview-wrap-btn {
+        .btn-primary {
+            color: $optional-color !important;
+        }
+    }
+
+    .user-analysis-banner {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .95;
+        }
+    }
+
+    .features-wrap-card {
+        background-color: $black-color;
+    }
+
+    .services-wrap-box {
+        background-color: #0e0e0e;
+
+        .content {
+            h3 {
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .value-benefits-wrap-content {
+        .list {
+            li {
+                background-color: #0e0e0e;
+                color: $white-color;
+
+                &:hover {
+                    background-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .awesome-solutions-area {
+        &.with-main-color {
+            .awesome-solutions-card {
+                background: #0e0e0e;
+
+                .icon {
+                    color: $white-color;
+                }
+                h3 {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .data-science-banner {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .95;
+        }
+    }
+
+    .data-science-banner-content {
+        .banner-form {
+            .input-newsletter {
+                background-color: $black-color;
+                border: 1px solid $black-color;
+                color: $white-color;
+
+                &::placeholder {
+                    color: $white-color;
+                }
+                &:focus {
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-awards-card {
+        background-color: #0e0e0e;
+
+        &:hover {
+            background-color: $optional-color;
+        }
+    }
+
+    .case-study-wrap-card {
+        background-color: #0e0e0e;
+        border: 1px solid #0e0e0e;
+
+        .case-study-content {
+            h3 {
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .team-wrap-shape {
+        img {
+            filter: brightness(0.1);
+        }
+    }
+
+    /* End "Data Analysis Demo CSS, "User Analysis Demo CSS & Data Science Demo CSS" */
+}
+
+// Theme Light CSS
+.theme-light {
+
+    .coming-soon-area {
+        .coming-soon-content {
+            .logo {
+                &.white-logo {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}

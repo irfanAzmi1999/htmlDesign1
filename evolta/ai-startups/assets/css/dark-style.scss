@@ -1,0 +1,1062 @@
+$main-color: #0ca59d;
+$optional-color: #ffac00;
+$white-color: #ffffff;
+$black-color: #333333;
+$paragraph-color: #e1e1e1;
+
+// Theme Dark CSS
+.theme-dark {
+    
+    body {
+        background-color: #000000;
+        color: $white-color;
+    }
+    a {
+        color: $white-color;
+    
+        &:hover, &:focus {
+            color: $main-color;
+        }
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $white-color;
+    }
+    p {
+        color: $paragraph-color;
+    }
+    .bg-f7f9fc {
+        background-color: #121414;
+    }
+    .bg-fafafa {
+        background-color: #000000;
+    }
+    .bg-f9f9f9 {
+        background-color: #101010;
+    }
+    .form-control {
+        border-color: #494949;
+        color: $white-color;
+        
+        &::placeholder {
+            color: $paragraph-color;
+        }
+        &:focus {
+            border-color: $main-color;
+            background-color: #000000;
+        }
+    }
+
+    .banner-shape, .feedback-shape {
+        img {
+            filter: brightness(0);
+        }
+    }
+
+    .single-partner-item {
+        a {
+            img {
+                opacity: 1;
+                filter: invert(1);
+            }
+        }
+    }
+
+    .single-services-box {
+        background-color: $black-color;
+    }
+    .services-shape {
+        opacity: .25;
+    }
+
+    .single-feedback-item {
+        .feedback-desc {
+            background-color: $black-color;
+            
+            p {
+                &::before {
+                    color: $paragraph-color;
+                }
+                &::after {
+                    color: $paragraph-color;
+                }
+            }
+            &::before {
+                background: $black-color;
+            }
+        }
+    }
+
+    .single-serve-box {
+        background-color: $black-color;
+    }
+
+    .single-pricing-box {
+        border-color: #292525;
+    
+        .pricing-features {
+            li {
+                color: $paragraph-color;
+            }
+        }
+        &:hover {
+            background-color: $black-color;
+            border-color: $black-color;
+        }
+    }
+
+    .single-blog-post {
+        .entry-post-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $paragraph-color;
+                        
+                        a {
+                            color: $paragraph-color;
+    
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about-text {
+        background-color: $black-color;
+    
+        &:hover {
+            background-color: $black-color;
+        }
+    }
+
+    .single-team-box {
+        background-color: $black-color;
+    
+        .image {
+            .social {
+                background: $black-color;
+            }
+        }
+    }
+
+    .pricing-tab {
+        .tabs {
+            li {
+                a {
+                    background-color: $black-color;
+                }
+            }
+        }
+    }
+
+    .woocommerce-topbar {
+        .woocommerce-topbar-ordering {
+            .nice-select {
+                background-color: $black-color;
+                color: $paragraph-color;
+                
+                .list {
+                    background-color: $black-color;
+                }
+            }
+        }
+    }
+    .single-product-box {
+        background-color: $black-color;
+    
+        .product-content {
+            .price {
+                color: $white-color;
+            }
+        }
+    }
+
+    .pagination-area {
+        .page-numbers {
+            background-color: $black-color;
+            color: $white-color;
+            box-shadow: unset;
+            
+            &.current, &:hover, &:focus {
+                background: $main-color;
+                color: $white-color;
+            }
+        }
+    }
+
+    .product-details-desc {
+        .price {
+            color: $white-color;
+        }
+        .product-review {
+            .rating-count {
+                color: $white-color;
+                border-bottom-color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                    border-color: $main-color;
+                }
+            }
+        }
+        .product-add-to-cart {
+            .input-counter {
+                input {
+                    color: $white-color;
+                    background-color: $black-color;
+                    
+                    &::placeholder {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .buy-checkbox-btn {
+            .cbx {
+                span {
+                    &:first-child {
+                        border-color: #494949;
+    
+                        svg {
+                            stroke: $black-color;
+                        }
+                        &:before {
+                            background: $white-color;
+                        }
+                    }
+                    &:last-child {
+                        color: $paragraph-color;
+                    }
+                }
+                &:hover {
+                    span {
+                        &:first-child {
+                            border-color: $white-color;
+                        }
+                    }
+                }
+            }
+            .inp-cbx:checked + .cbx span:first-child {
+                background: $white-color;
+                border-color: $white-color;
+            }
+            .btn-light {
+                background-color: $black-color;
+            }
+        }
+        .custom-payment-options {
+            span {
+                color: $paragraph-color;
+            }
+        }
+    }
+    .products-details-tab {
+        .tabs {
+            li {
+                a {
+                    color: $white-color;
+                    border-color: #494949;
+                    
+                    .dot {
+                        border-color: $white-color;
+            
+                        &::before {
+                            background: $white-color;
+                        }
+                    }
+                    &:hover, &:focus {
+                        border-color: $main-color;
+                    }
+                }
+                &.current {
+                    a {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .tab_content {
+            border-color: #494949;
+    
+            .tabs_item {
+                .products-details-tab-content {
+                    .additional-information {
+                        li {
+                            border-color: #494949;
+                            color: $paragraph-color;
+    
+                            &:last-child {
+                                border-bottom-color: #494949;
+                            }
+                            span {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                    .product-review-form {
+                        .review-comments {
+                            .review-item {
+                                border-top-color: #494949;
+    
+                                .review-report-link {
+                                    color: $paragraph-color;
+    
+                                    &:hover {
+                                        color: $main-color;
+                                    }
+                                }
+                            }
+                        }
+                        .review-form {
+                            form {
+                                .form-group {
+                                    label {
+                                        color: $paragraph-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cart-table {
+        table {
+            thead {
+                tr {
+                    th {
+                        color: $white-color;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        color: $paragraph-color;
+                        
+                        &.product-name {
+                            a {
+                                color: $paragraph-color;
+    
+                                &:hover {
+                                    color: $optional-color;
+                                }
+                            }
+                        }
+                        &.product-quantity {
+                            .input-counter {
+                                input {
+                                    color: $white-color;
+                                    background-color: $black-color;
+
+                                    &::placeholder {
+                                        color: $white-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .table-bordered>:not(caption)>* {
+            border-color: #312d2d;
+        }
+    }
+    .cart-totals {
+        background: $black-color;
+        
+        ul {
+            li {
+                border-color: #494949;
+                color: $white-color;
+                
+                span {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .user-actions {
+        background: $black-color;
+    
+        span {
+            color: $main-color;
+    
+            a {
+                color: $white-color;
+    
+                &:hover, &:focus {
+                    color: $main-color;
+                }
+            }
+        }
+        &::before {
+            background: #333333;
+        }
+    }
+    .billing-details {
+        .form-group {
+            label {
+                color: $paragraph-color;
+            }
+            .nice-select {
+                color: $paragraph-color;
+                
+                .list {
+                    background-color: $black-color;
+                }
+            }
+        }
+        .form-check {
+            .form-check-label {
+                color: $paragraph-color;
+            }
+        }
+    }
+    .order-details {
+        .order-table {
+            table {
+                thead {
+                    tr {
+                        border-color: #494949;
+
+                        th {
+                            color: $white-color;
+                            border-color: #494949;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        border-color: #494949;
+
+                        td {
+                            color: $paragraph-color;
+                            border-color: #494949;
+                            
+                            &.product-name {
+                                a {
+                                    color: $paragraph-color;
+
+                                    &:hover {
+                                        color: $main-color;
+                                    }
+                                }
+                            }
+                            &.order-subtotal, &.order-shipping , &.total-price {
+                                span {
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .payment-box {
+            background-color: $black-color;
+            
+            .payment-method {
+                p {
+                    [type="radio"] {
+                        &:checked, &:not(:checked) {
+                            + label {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .widget-area {
+        .widget {
+            .widget-title {
+                border-bottom-color: #494949;
+            }
+        }
+        .widget_search {
+            background-color: $black-color;
+    
+            form {
+                .search-field {
+                    border-color: #494949;
+                    color: $white-color;
+    
+                    &::placeholder {
+                        color: $paragraph-color;
+                    }
+                    &:focus {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .widget_evolta_posts_thumb {
+            .item {
+                .info {
+                    time {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_entries {
+            ul {
+                li {
+                    color: $paragraph-color;
+
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                    .post-date {
+                        color: $paragraph-color;
+                    }
+                }
+            }
+        }
+        .widget_recent_comments {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+                        
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_archive {
+            ul {
+                li {    
+                    color: $paragraph-color;
+
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_meta {
+            ul {
+                li {
+                    color: $paragraph-color;
+                    
+                    a {
+                        color: $paragraph-color;
+    
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .tagcloud {
+            a {
+                color: $paragraph-color;
+                border-color: #494949;
+                
+                &:hover, &:focus {
+                    color: $white-color;
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .blog-details {
+        .article-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $white-color;
+        
+                        a {
+                            color: $paragraph-color;
+        
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .article-features-list {
+                li {
+                    color: $paragraph-color;
+                }
+            }
+        }
+        .article-footer {
+            border: {
+                top-color: #494949;
+                bottom-color: #494949;
+            }
+            .article-tags {
+                span {
+                    color: $white-color;
+                }
+                a {
+                    color: $paragraph-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+            .article-share {
+                .social {
+                    li {
+                        a {
+                            color: $white-color;
+                            background-color: $black-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        background-color: $black-color;
+        
+        p {
+            color: $white-color;
+        }
+        &::before {
+            opacity: .15;
+        }
+    }
+    .comments-area {
+        background-color: $black-color;
+    
+        .comment-body {
+            border-bottom-color: #494949;
+            color: $white-color;
+    
+            .reply {
+                a {
+                    border-color: #494949;
+                    color: $paragraph-color;
+
+                    &:hover {
+                        color: $white-color;
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .comment-metadata {
+            color: $paragraph-color;
+
+            a {
+                color: $paragraph-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        .comment-respond {
+            label {
+                color: $white-color;
+            }
+            input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+                color: $white-color;
+                background-color: #2d2b2b;
+                border-color: #494949;
+    
+                &::placeholder {
+                    color: $paragraph-color;
+                }
+                &:focus {
+                    border-color: $main-color;
+                }
+            }
+            .comment-form-cookies-consent {
+                label {
+                    color: $paragraph-color;
+                }
+            }
+        }
+    }
+
+    .contact-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+            }
+        }
+    }
+    .contact-info-box {
+        background: $black-color;
+    
+        p {
+            a {
+                color: $paragraph-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    /* Start "Artificial Intelligence Demo CSS, "AI Solution Demo CSS & Computer Vision Demo CSS" */
+
+    .top-header-area {
+        background-color: $black-color;
+    }
+    .top-header-content {
+        span {
+            color: $white-color;
+        }
+    }
+    .top-header-info {
+        li {
+            color: $white-color;
+
+            a {
+            color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+    
+    .ai-main-banner {
+        background-color: #0e0e0e;
+    }
+    .ai-banner-large-shape {
+        img {
+            filter: brightness(0.1);
+        }
+    }
+
+    .features-wrap-card {
+        background: #0e0e0e;
+    }
+
+    .ai-solution-content {
+        .list {
+            li {
+                background-color: #0e0e0e;
+                color: $white-color;
+
+                &:hover {
+                    background: $main-color;
+                }
+            }
+        }
+    }
+    .ai-solution-image {
+        &::after {
+            filter: brightness(0);
+        }
+    }
+
+    .funfacts-wrap-card {
+        .circlechart {
+            .circle-chart {
+                fill: $white-color;
+            }
+        }
+    }
+
+    .ai-services-area {
+        background-color: #0e0e0e;
+    }
+    .ai-services-card {
+        background-color: #000000;
+
+        .services-content {
+            h3 {
+                a {
+                    color: $white-color;
+                }
+            }
+            p {
+                color: $white-color;
+            }
+        }
+        &:hover {
+            background-color: $main-color;
+        }
+    }
+
+    .ai-handle-content {
+        .list {
+            li {
+                background-color: #0e0e0e;
+                color: $white-color;
+
+                &:hover {
+                    background: $main-color;
+                }
+            }
+        }
+    }
+    .ai-handle-image {
+        &::after {
+            filter: brightness(0);
+        }
+    }
+
+    .clients-review-area {
+        background-color: #0e0e0e;
+    }
+    .clients-review-item {
+        background-color: #000000;
+        border: 1px solid #000000;
+
+        &:hover {
+            border: 1px solid $main-color;
+        }
+    }
+
+    .industries-area {
+        background-color: $black-color;
+    }
+
+    .industries-card {
+        background-color: #0e0e0e;
+        border: 1px solid #0e0e0e;
+
+        &:hover {
+            border: 1px solid $optional-color;
+        }
+    }
+
+    .ai-blog-card {
+        .entry-post-content {
+            h3 {
+                a {
+                    color: $white-color;
+                }
+            }
+            .entry-meta {
+                li {
+                    color: $white-color;
+                    
+                    a {
+                        color: $white-color;
+                        
+                        &:hover {
+                            color: $main-color;
+                            text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            .entry-post-content {
+                h3 {
+                    a {
+                        color: $optional-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .ai-subscribe-area {
+        background-color: #0e0e0e;
+    }
+    .ai-subscribe-content {
+        .newsletter-form {
+            .input-newsletter {
+                background-color: #000000;
+                color: $white-color;
+
+                &::placeholder {
+                    color: $white-color;
+                }
+                &:focus {
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+            .newsletter-checkbox-btn {
+                .cbx {
+                    span {
+                        &:last-child {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .solution-banner-area {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            background-color: #000000;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: .80;
+        }
+    }
+
+    .overview-features-card {
+        background-color: #0e0e0e;
+        border: 1px solid #0e0e0e;
+
+        &:hover {
+            border: 1px solid $main-color;
+        }
+    }
+
+    .ai-handle-content {
+        .handle-inner-card {
+            background-color: #0e0e0e;
+            border: 1px solid #0e0e0e;
+
+            &:hover {
+                border: 1px solid $main-color;
+            }
+        }
+    }
+
+    .clients-review-area {
+        &.with-linear-gradient-color {
+            &::before {
+                background-color: #000000;
+            }
+            .clients-review-item {
+                border: 1px solid #0e0e0e;
+
+                &:hover {
+                    border: 1px solid $main-color;
+                }
+            }
+        }
+    }
+
+    .computer-vision-banner-area {
+        background-color: #0e0e0e;
+    }
+    .computer-vision-banner-content {
+        .banner-btn {
+            li {
+                .video-btn {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .computer-vision-bg-shape {
+        img {
+            filter: brightness(0.1);
+        }
+    }
+
+    .counter-inner-box {
+        &.with-white-bg-color {
+            background: #000000;
+            box-shadow: unset;
+
+            .counter-card {
+                h3 {
+                    color: $white-color;
+
+                    .sign-icon {
+                        color: $white-color;
+                    }
+                }
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .ai-services-area {
+        &.with-linear-gradient-color {
+            &::before {
+                background-color: #000000;
+            }
+        }
+    }
+
+    .team-wrap-area {
+        background-color: #0e0e0e;
+    }
+    .team-wrap-card {
+        .team-content {
+            background-color: #000000;
+        }
+    }
+
+    .case-study-area {
+        &::before {
+            background-color: #000000;
+        }
+    }
+    .case-study-card {
+        background-color: #0e0e0e;
+        border: 1px solid #0e0e0e;
+
+        .case-study-content {
+            h3 {
+                a {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    /* End "Artificial Intelligence Demo CSS, "AI Solution Demo CSS & Computer Vision Demo CSS" */
+}
